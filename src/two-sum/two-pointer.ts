@@ -19,9 +19,9 @@ export const twoPointer = (input: number[], target: number): boolean => {
 };
 
 export const burstForce = (input: number[], target: number): boolean => {
-  const length = input.length;
-  for (let i = 0; i < length; i++) {
-    for (let j = 1; j < length; j++) {
+  const { length } = input;
+  for (let i = 0; i < length; i += 1) {
+    for (let j = 1; j < length; i += 1) {
       if (input[i] + input[j] === target) {
         return true;
       }
