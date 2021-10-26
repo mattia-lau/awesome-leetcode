@@ -9,11 +9,12 @@ const binarySearch = (
 
   if (nums[mid] > target) {
     return binarySearch(nums, target, l, mid - 1);
-  } if (nums[mid] < target) {
+  }
+  if (nums[mid] < target) {
     return binarySearch(nums, target, mid + 1, r);
-  } 
-    return mid;
-  
+  }
+  return mid;
 };
 
-export const searchInsert = (nums: number[], target: number): number => binarySearch(nums, target, 0, nums.length - 1);
+export const searchInsert = (nums: number[], target: number): number =>
+  binarySearch(nums, target, 0, nums.length - 1);
