@@ -1,4 +1,4 @@
-import { twoPointer, burstForce } from '@awesome-leetcode/two-sum/two-pointer';
+import { twoPointer, burstForce } from '@awesome-leetcode/two-sum/two-sum';
 
 const testcases = [
   {
