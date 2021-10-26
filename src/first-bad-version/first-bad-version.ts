@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/first-bad-version/
+
 type IsBadVersion = (n: number) => boolean;
 
 export const binarySearch = (l: number, r: number, isBadVersion: IsBadVersion) => {
