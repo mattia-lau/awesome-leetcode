@@ -4,12 +4,14 @@ module.exports = {
     tsconfigRootDir: __dirname,
     sourceType: 'module',
   },
-  extends: ['airbnb-base', 'airbnb-typescript/base'],
+  extends: ['airbnb-base', 'airbnb-typescript/base', 'prettier'],
   root: true,
   env: {
     node: true,
     jest: true,
   },
   ignorePatterns: ['.eslintrc.js'],
-  rules: {},
+  rules: {
+    'import/prefer-default-export': 'off',
+  },
 };
