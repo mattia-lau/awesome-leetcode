@@ -21,4 +21,5 @@ const binarySearch = (
   return mid;
 };
 
-export const search = (nums: number[], target: number): number => binarySearch(nums, target, 0, nums.length - 1);
+export const search = (nums: number[], target: number): number =>
+  binarySearch(nums, target, 0, nums.length - 1);
