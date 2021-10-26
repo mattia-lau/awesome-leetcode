@@ -11,6 +11,7 @@ Just wanna record my learn curve. :)
   - [Search Insert Position](src/search-insert-position/search-insert-position.ts)
 - Two Pointer
   - [Two Sum](src/two-sum/two-sum.ts)
+  - [977. Squares of a Sorted Array](src/squares-sorted-array/squares-sorted-array.ts)
 
 # Contribute
 
