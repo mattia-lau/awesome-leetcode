@@ -1,4 +1,4 @@
-import { solution } from '@awesome-leetcode/first-bad-version/binary-search';
+import { solution } from '@awesome-leetcode/first-bad-version/first-bad-version';
 
 const testcases = [
   {
