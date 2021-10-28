@@ -12,6 +12,7 @@ Just wanna record my learn curve. :)
 - Two Pointer
   - [Two Sum](src/two-sum/two-sum.ts)
   - [977. Squares of a Sorted Array](src/squares-sorted-array/squares-sorted-array.ts)
+  - [283. Move Zeroes](src/move-zeros/move-zeros.ts)
 
 # Contribute
 
